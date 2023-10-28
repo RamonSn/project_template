@@ -4,7 +4,7 @@
 
 ## README content
 
-- [User guide for this repository]{#user-guide-for-this-repository}
+- [User guide for this repository](#user-guide-for-this-repository)
 
 ## User guide for this repository
 
