@@ -5,6 +5,7 @@
 ## README content
 
 - [User guide for this repository](#user-guide-for-this-repository)
+- [Repository content](#repository-content)
 
 ## User guide for this repository
 
@@ -16,3 +17,20 @@
   - Run `renv::snapshot()` before pushing changes to this repository.
   - Run `renv::restore()` to restore the packages on a new machine.
   - Please refer to the guide.
+  
+## Repository content
+
+```
+.
+├── README.md # this readme file
+├── data # raw data
+├── documentation # documentation about the data
+├── proc # processed data sets
+├── results
+    └── figures
+    └── tables
+├── scripts # code
+    └── programs # contains functions called by analysis scripts
+```
+
+
