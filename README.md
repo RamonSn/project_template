@@ -4,9 +4,9 @@
 
 ## README content
 
-- [User guide for this repository]{#sec-userguide}
+- [User guide for this repository]{#user-guide-for-this-repository}
 
-## User guide for this repository {#sec-userguide}
+## User guide for this repository
 
  - This repository closely follows [guide for using R on research projects by Sean Higgins](https://github.com/skhiggins/R_guide). Please read the guide before contributing to this repository.
 
