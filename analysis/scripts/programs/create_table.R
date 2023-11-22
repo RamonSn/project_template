@@ -1,16 +1,24 @@
-#' Create table using the kableExtra packages
+#' Create table using the kableExtra package
 #'
-#' @param tib tibble
+#' @param df data frame
+#' @param caption caption
+#' @param col.names variable names
+#' @param label reference label
 #'
 #' @return table
-create_table <- function(tib, caption = NULL, col.names = NULL) {
+create_table <- function(
+    df,
+    caption = NULL,
+    col.names = NULL,
+    label = NULL) {
   # Create table
   tbl <- kbl(
-    tib,
+    df,
     caption = caption,
     col.names = col.names,
     booktabs = TRUE,
-    longtable = TRUE
+    longtable = TRUE,
+    label = label
   ) %>%
     kable_styling(latex_options = c("HOLD_position", "striped", "repeat_header"))
   
