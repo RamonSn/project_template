@@ -18,7 +18,8 @@ create_table <- function(
     col.names = col.names,
     booktabs = TRUE,
     longtable = TRUE,
-    label = label
+    label = label,
+    escape = FALSE
   ) %>%
     kable_styling(latex_options = c("HOLD_position", "striped", "repeat_header"))
   
